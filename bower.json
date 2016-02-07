@@ -1,0 +1,29 @@
+{
+  "name": "stbc",
+  "version": "0.1.0",
+  "authors": [
+    "Philippe MILINK <philippe.milink@gmx.fr>"
+  ],
+  "description": "Sharing Texts Between Computer: a light tool to exchange short texts between computers, using NodeJS",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "clipboard",
+    "copy",
+    "nodejs",
+    "network"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

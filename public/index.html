@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>STBC</title>
+		<link href="assets/bower/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<style>
+			.cursor-pointer {
+				cursor: pointer;
+			}
+		</style>
+	</head>
+
+	<body class="container-fluid">
+		<header>
+			<h1>STBC <small id="nbConnected">1 connection</small></h1>
+		</header>
+
+		<div class="row" id="clipboards">
+		</div>
+
+		<script src="assets/bower/jquery/dist/jquery.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="assets/js/client.js"></script>
+	</body>
+</html>

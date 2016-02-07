@@ -1,0 +1,16 @@
+{
+  "name": "stbc",
+  "version": "0.1.0",
+  "description": "Sharing Texts Between Computer: a light tool to exchange short texts between computers, using NodeJS",
+
+  "dependencies": {
+    "ent": "^2.2.0",
+    "express": "~4.13.4",
+    "socket.io": "~1.4.5"
+  },
+  "repository": {
+  	"type": "git",
+  	"url" : "https://github.com/philippemilink/stbc.git"
+  },
+  "license": "MIT"
+}
